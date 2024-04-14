@@ -27,8 +27,8 @@ public class testselectionsort {
 
     @Test
     public void testMixed() {
-        int[] input = {0, -64, 25, -12, 22};
-        int[] expected = {-64, -12, 0, 22, 25};
+        int[] input = {0, -64, 25, -15, 28};
+        int[] expected = {-64, -15, 0, 25, 28};
         sort.basicSelectionSort(input);
         assertArrayEquals(expected, input);
     }
